@@ -2,4 +2,21 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Pulled location and weather data:
+  div(id='city')
+  div(id="temp")
+  div(id="condition")
+  
+  h2="Movie Suggestions:"
+  
+  div(class="sug" id="suggestion1")
+  div(class="sug" id="suggestion2")
+  div(class="sug" id="suggestion3")
+  div(class="sug" id="suggestion4")
+  div(class="sug" id="suggestion5")
+
+  p
+  p Enjoy!
+  p
+  h3 Movie database pulled from: 
+  img(src="/images/source.png" alt="Data Pulled From The Movie DB" height="100" width="100")
